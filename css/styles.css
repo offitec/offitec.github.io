@@ -1,0 +1,207 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.menu .navbar-nav .nav-item a {
+  font-size: 1.2em;
+  color: black;
+  font-weight: 400;
+  border-bottom: 2px solid transparent;
+}
+.menu .navbar-nav .nav-item a:hover {
+  border-bottom: 2px solid #548cd3;
+}
+.menu .navbar-nav .nav-item:nth-child(1) a {
+  border-right: 1px solid black;
+  padding-right: 20px;
+  margin-right: 10px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.services {
+  background: #f2f2f2;
+}
+.services .title {
+  margin: 20px 0;
+  font-weight: 700;
+  text-align: center;
+}
+.services .description {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 35px;
+  margin: 20px;
+}
+.services .services {
+  margin: 50px 0;
+  text-align: center;
+}
+.services .services .card .card-body .card-text {
+  font-weight: 300;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+.customer {
+  background: url(../img/printer-bg.png) #4a4a4a;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.customer .title {
+  margin: 20px 0;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+.customer .customers .carousel-item {
+  margin: 100px 0;
+}
+.customer .customers .carousel-item .text {
+  color: white;
+  font-size: 2em;
+}
+.customer .customers .carousel-item .company {
+  color: white;
+  text-align: right;
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.contacto .title {
+  margin: 20px 0;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+.contacto .ubicacion {
+  margin-top: 50px;
+}
+.contacto .ubicacion .card .card-body .card-text .icon {
+  font-size: 30px;
+}
+.contacto .ubicacion .card .card-body .card-text .description {
+  font-size: 0.9em;
+  border-bottom: 1px solid #ccc;
+}
+.contacto .ubicacion .description {
+  font-size: 1.4em;
+  color: #6e6e6e;
+  margin-bottom: 20px;
+}
+.contacto .ubicacion .formulario input[type=text], .contacto .ubicacion .formulario input[type=email], .contacto .ubicacion .formulario textarea {
+  border: 2px solid #cecece;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 20px;
+  color: #a4a4a4;
+}
+.contacto .ubicacion .formulario input[type=text]:focus, .contacto .ubicacion .formulario input[type=email]:focus, .contacto .ubicacion .formulario textarea:focus {
+  border: 2px solid #548cd3;
+}
+.contacto .ubicacion .formulario input[type=text], .contacto .ubicacion .formulario input[type=email] {
+  width: 49%;
+  margin-bottom: 15px;
+}
+.contacto .ubicacion .formulario textarea {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100px;
+  min-height: 100px;
+  max-height: 300px;
+  margin-bottom: 15px;
+}
+.contacto .ubicacion .formulario .boton {
+  font-weight: 700;
+  background-color: #548cd3;
+  color: white;
+  border: none;
+  font-size: 1.4em;
+  border-radius: 3px;
+  padding: 5px 50px;
+  cursor: pointer;
+}
+.contacto .ubicacion .formulario .boton:hover {
+  background-color: #387bea;
+}
+.contacto .ubicacion .formulario .notice {
+  color: #6e6e6e;
+}
+
+footer {
+  background: #323234;
+  padding: 50px 0;
+  color: white;
+}
+footer .caption {
+  font-size: 1.2em;
+}
+footer .copy {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  header nav .menu .navbar-brand img {
+    height: 50px;
+  }
+
+  #carouselImages .carousel-inner .carousel-item img {
+    height: 500px;
+  }
+
+  .customer .customers .carousel-item {
+    margin: 50px 0;
+  }
+  .customer .customers .carousel-item .text {
+    text-align: center;
+    font-size: 1em;
+  }
+  .customer .customers .carousel-item .company {
+    font-size: 0.8em;
+  }
+
+  .contacto .ubicacion .card .card-body .card-text .icon {
+    font-size: 20px;
+  }
+  .contacto .ubicacion .description {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .contacto .ubicacion .formulario {
+    margin: 10px;
+  }
+  .contacto .ubicacion .formulario input[type=text], .contacto .ubicacion .formulario input[type=email] {
+    width: 100%;
+  }
+  .contacto .ubicacion .formulario .notice {
+    font-size: 0.8em;
+  }
+
+  footer .caption {
+    font-size: 1em;
+    margin-top: 50px;
+  }
+  footer .copy {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .customer .customers .carousel-item {
+    margin: 50px 0;
+  }
+  .customer .customers .carousel-item .text {
+    text-align: center;
+    font-size: 1em;
+  }
+  .customer .customers .carousel-item .company {
+    font-size: 0.8em;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
