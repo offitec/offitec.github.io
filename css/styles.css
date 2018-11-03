@@ -25,6 +25,10 @@ section {
   padding: 80px 0;
 }
 
+.red {
+  color: #ff0000;
+}
+
 #carouselImages .carousel-inner img {
   background-size: cover;
 }
@@ -49,7 +53,9 @@ section {
   text-align: center;
 }
 .services .services .card .card-body .card-text {
-  font-weight: 300;
+  color: #323234;
+  font-weight: 400;
+  font-size: 1.2em;
   line-height: 30px;
   overflow: hidden;
 }
@@ -68,6 +74,8 @@ section {
 }
 .customer .customers .carousel-item {
   margin: 100px 0;
+  height: 200px;
+  overflow: hidden;
 }
 .customer .customers .carousel-item .text {
   color: white;
@@ -75,7 +83,7 @@ section {
 }
 .customer .customers .carousel-item .company {
   color: white;
-  text-align: right;
+  text-align: left;
   margin-top: 20px;
   font-size: 1.2em;
   font-style: italic;
