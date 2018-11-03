@@ -28,13 +28,50 @@ section
         margin: 50px 0
         text-align: center
         .card
+            text-align: center
+            padding-top: 75px
+            -webkit-transition: all 0.3s ease 0s
+            -moz-transition: all 0.3s ease 0s
+            -o-transition: all 0.3s ease 0s
+            transition: all 0.3s ease 0s
+            img
+                height: 200px
+                -webkit-transform: scale(1)
+                -moz-transform: scale(1)
+                -ms-transform: scale(1)
+                -o-transform: scale(1)
+                transform: scale(1)
+                -webkit-transition: all 0.3s ease 0s
+                -moz-transition: all 0.3s ease 0s
+                -o-transition: all 0.3s ease 0s
+                transition: all 0.3s ease 0s
             .card-body
+                margin-top: 50px
                 .card-text
                     color: $footer
                     font-weight: 400
                     font-size: 1.2em
                     line-height: 30px
                     overflow: hidden
+            &:hover
+                -webkit-transition: all 0.3s ease 0s
+                -moz-transition: all 0.3s ease 0s
+                -o-transition: all 0.3s ease 0s
+                transition: all 0.3s ease 0s
+                background: $transition_color_service
+                .card-body
+                    .card-text
+                        color: white
+                img
+                    -webkit-transition: all 0.3s ease 0s
+                    -moz-transition: all 0.3s ease 0s
+                    -o-transition: all 0.3s ease 0s
+                    transition: all 0.3s ease 0s
+                    -webkit-transform: scale(1.5)
+                    -moz-transform: scale(1.5)
+                    -ms-transform: scale(1.5)
+                    -o-transform: scale(1.5)
+                    transform: scale(1.5)
 
 .customer
     background: url(../img/printer-bg.png) #4a4a4a
