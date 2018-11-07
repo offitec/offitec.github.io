@@ -311,16 +311,17 @@
                     <div class="col-12 col-sm-12 col-md-8">
                         <p class="description">Contáctanos para tener el gusto de atenderlos</p>
                         <div class="row justify-content-center">
-                            <form class="formulario">
+                            <form class="formulario" id="form">
                                 <input type="text" name="nombre" placeholder="Nombre *" required>
                                 <input type="email" name="email" placeholder="Correo *" required>
-                                <textarea name="mensaje" placeholder="Mensaje *"></textarea>
+                                <textarea name="mensaje" placeholder="Mensaje *" required></textarea>
                                 <p class="notice">
                                     * Todos los campos son obligatorios
                                 </p>
                                 <div class="text-center">
-                                    <input class="boton" type="submit" name="enviar" value="Enviar">
-                                </div>
+                                    <input id="send" class="boton" type="submit" name="enviar" value="Enviar">
+                                </div><br>
+                                <div id="result" class="alert"></div>
                             </form>
                         </div>
                     </div>
@@ -340,7 +341,10 @@
                     actuales en el mercado, para la venta y el alquiler.
                 </div>
                 <div class="col-12 copy">
-                    &copy; 2018 Ofitec - Todos los Derechos Reservados
+                    &copy; 2018 Ofitec
+                </div>
+                <div class="col-12 redes">
+                    <a href="https://www.facebook.com/ofitecColombia" target="_blank" title="Síguenos en Facebook"><i class="fa fa-facebook"></i></a>
                 </div>
             </div>
         </div>
@@ -354,7 +358,7 @@
     <link rel="stylesheet" href="css/styles.css" media="all">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script>$(function () { $("a.page-scroll").on("click", function (t) { var o = $(this), e = $(o.attr("href")); $("html, body").animate({ scrollTop: e.offset().top }, 1e3), t.preventDefault() }) });</script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

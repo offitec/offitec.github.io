@@ -190,6 +190,11 @@ section {
 .contacto .ubicacion .formulario .boton:hover {
   background-color: #387bea;
 }
+.contacto .ubicacion .formulario .boton:disabled {
+  background-color: #323234;
+  color: #cccccc;
+  cursor: default;
+}
 .contacto .ubicacion .formulario .notice {
   color: #6e6e6e;
 }
@@ -204,6 +209,20 @@ footer .caption {
 }
 footer .copy {
   margin-top: 50px;
+}
+footer .redes {
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+}
+footer .redes a {
+  color: white;
+}
+footer .redes a:hover {
+  color: #ccc;
+}
+footer .redes a:visit {
+  color: white;
 }
 
 @media screen and (max-width: 576px) {
